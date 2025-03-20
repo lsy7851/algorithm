@@ -1,9 +1,6 @@
 from solution import solve
 from util.test_runner import run_fun_solution
 
-from solution import solve
-from util.test_runner import run_fun_solution
-
 test_cases = [
   (
     """3
