@@ -56,8 +56,11 @@ test_cases = [
     "1\n1000\n" + "\n".join(f"{2 * i} 0 1" for i in range(1000)) + "\n",
     "1\n"
   ),
+  (
+    "1\n5\n0 0 1\n2 0 1\n6 0 1\n6 10 1\n4 0 1\n",
+    "2\n"
+  ),
 ]
-
 
 def test_node():
   for input_data, expected_output in test_cases:
